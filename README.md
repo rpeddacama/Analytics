@@ -1,6 +1,6 @@
 Analytics
 
-This application is built using Kappa architecture for complex analytics business use case.
+Application analytics from consumer usage of search. It generates detailed reports on how providers are ranked for the Top hits to search application.
 
 Entire life-cycle of the application is managed in the Spark cluster without any trips to intermediate storage. This eliminates potential data loss, delays and duplication.
 
