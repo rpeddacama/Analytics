@@ -4,7 +4,7 @@ Application builds analytics from customer usage of search. It generates detaile
 
 Entire life-cycle of the application is managed in the Spark cluster without any trips to intermediate storage. This eliminates potential data loss, delays and duplication.
 
-##The following steps summarize the application behavior.
+##The following steps summarize the application behavior
 
 1) Hits to search engine are streamlined to Kafka topic using Logstash pipeline
 
