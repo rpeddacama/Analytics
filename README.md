@@ -1,10 +1,10 @@
-Analytics
+#Analytics
 
 Application builds analytics from customer usage of search. It generates detailed reports on how providers are ranked for the Top hits to search application.
 
 Entire life-cycle of the application is managed in the Spark cluster without any trips to intermediate storage. This eliminates potential data loss, delays and duplication.
 
-The following steps summarize the application behavior.
+##The following steps summarize the application behavior.
 
 1) Hits to search engine are streamlined to Kafka topic using Logstash pipeline
 2) Application reads from Kafka and de-dupes hits
